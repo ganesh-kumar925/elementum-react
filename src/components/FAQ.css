@@ -1,0 +1,37 @@
+.faq{
+    width:90%;
+    margin:120px auto;
+}
+
+.faq h2{
+    text-align:center;
+    font-size:60px;
+    margin-bottom:60px;
+    color: black;
+}
+
+.faq-item{
+    padding:30px;
+    margin-bottom:20px;
+    border-radius:20px;
+    background:#fff;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.faq-item h3{
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+.faq-item p{
+    color:#666;
+    line-height:1.8;
+}
+
+.faq-card{
+    transition:.35s;
+}
+.faq-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 30px rgba(0,0,0,.08);
+}
