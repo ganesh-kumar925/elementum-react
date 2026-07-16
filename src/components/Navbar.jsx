@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import { HiOutlineBars3 } from "react-icons/hi2";
+import { HiMenu } from "react-icons/hi";
 
 function Navbar() {
   return (
@@ -17,7 +17,7 @@ function Navbar() {
       </ul>
 
       <div className="menu">
-       <HiOutlineBars3 />
+      <HiMenu />
       </div>
     </nav>
   );
